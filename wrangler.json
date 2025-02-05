@@ -1,0 +1,30 @@
+{
+  "name": "fragrant-violet-42a8",
+  "main": "./dist/index.js",
+  "assets": {
+    "directory": "./dist"
+  },
+  "compatibility_date": "2024-11-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": {
+    "enabled": true
+  },
+  "upload_source_maps": true,
+  "vars": {
+    "EXAMPLE_VALUE": "example_value"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "orange-flower-58e9-d1",
+      "database_id": "f115005a-f285-4e07-92fe-4851b17575fd"
+    }
+  ],
+  "workflows": [
+    {
+      "name": "fragrant-violet-42a8-customer-workflow",
+      "binding": "CUSTOMER_WORKFLOW",
+      "class_name": "CustomerWorkflow"
+    }
+  ]
+}
